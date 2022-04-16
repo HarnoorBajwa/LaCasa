@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>La Casa</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+    <body id="main-body">
+      <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+        <header id="header">
+            <section id="page-header">
+                <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+                <h1 id="main-heading">La Casa</h1>
+                <button class="hamburger-icon" id="icon">
+                    <!-- material icons pulled through CSS from:
+                    https://fonts.googleapis.com/icon?family=Material+Icons
+                    -->
+                    <em class="menuIcon material-icons">menu</em>
+                </button></div>
+                <p id="Tagline"> Home to authentic Italian food </p>
+                
+            </section>
+            <nav id="navigation-list" class="show">
+                <ul>
+                    <li><a href="menu.html" target="_self">Menu</a></li>
+                    <li><a href="team.html" target="_self">The Team</a></li>
+                    <li><a href="review.html" target="_self">Our Reviews</a></li>
+                    <li><a href="story.html" target="_self">Our Story</a></li>
+                    <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- The main body contains many different sections with different headings and two lists
+        in each section one for dishes and another for their prices -->
+        <main>
+            <input type="text" id="menuInput" placeholder="Search for dishes" title="Menu">
+            <table id="menuTable">
+                <tr class="menu-table-header">
+                  <th>Menu</th>
+                </tr>
+                <tr>
+                  <td>Stuzzichini</td>
+                </tr>
+                <tr>
+                  <td>Calamari</td>
+                </tr>
+                <tr>
+                  <td>Risotto Croquettes</td>
+                </tr>
+                <tr>
+                  <td>Local Mussels</td>
+                </tr>
+                <tr>
+                  <td>Pan Seared Scallops</td>
+                </tr>
+                <tr>
+                  <td>Jumbo Shrimp</td>
+                </tr>
+                <tr>
+                  <td>Bruschetta</td>
+                </tr>
+                <tr>
+                  <td>Italian Seafood Zuppa</td>
+                </tr>
+                <tr>
+                  <td>Marinated Grilled Vegetable Salad</td>
+                </tr>
+                <tr>
+                  <td>Caesar Salad</td>
+                </tr>
+                <tr>
+                  <td>Spinach Salad</td>
+                </tr>
+                <tr>
+                  <td>Red & Green Shredded Cabbage Salad</td>
+                </tr>
+                <tr>
+                  <td>8-Layer Lasagna</td>
+                </tr>
+                <tr>
+                  <td>Linguine Frutti di Mare</td>
+                </tr>
+                <tr>
+                  <td>Agnolotti all’Aragosta</td>
+                </tr>
+                <tr>
+                  <td>Spaghettini alla Carbonara</td>
+                </tr>
+                <tr>
+                  <td>Penne Salsiccia</td>
+                </tr>
+                <tr>
+                  <td>Spaghettini Bolognese</td>
+                </tr>
+                <tr>
+                  <td>Chicken & Cambozola stuffing</td>
+                </tr>
+                <tr>
+                  <td>Fettuccine Jumbo Shrimp</td>
+                </tr>
+                <tr>
+                  <td>Penne Roasted Chicken</td>
+                </tr>
+                <tr>
+                  <td>Linguine Aglio e Olio</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza Wild Mushrooms</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza, 4-Carne</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza Chicken</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza, Housemade Sausage</td>
+                </tr>
+                <tr>
+                  <td>Thin Crust Pizza Vegetariana</td>
+                </tr>
+                <tr>
+                  <td>Homemade Ligurian Focaccia</td>
+                </tr>
+                <tr>
+                  <td>Mercato Burger</td>
+                </tr>
+                <tr>
+                  <td>Italian Seafood Stew</td>
+                </tr>
+                <tr>
+                  <td>Chicken Parmigiana</td>
+                </tr>
+                <tr>
+                  <td>Pan Seared Halibut</td>
+                </tr>
+                <tr>
+                  <td>Grilled Beef Tenderloin</td>
+                </tr>
+                <tr>
+                  <td>Atlantic Salmon</td>
+                </tr>
+                <tr>
+                  <td>Grilled Rack of Lamb</td>
+                </tr>
+                <tr>
+                  <td>Pork Tenderloin</td>
+                </tr>
+                <tr>
+                  <td>French Fries</td>
+                </tr>
+                <tr>
+                  <td>Penne</td>
+                </tr>
+                <tr>
+                  <td>Fettuccine all’Alfredo</td>
+                </tr>
+              </table>
+        <div id="menu-nav">
+            <nav id="sub-nav-menu">
+                <ul>
+                    <li><a href="#antipasti">Antipasti</a></li>
+                    <li><a href="#pasteasciutte">Pasteasciutte</a></li>
+                    <li><a href="#pizze-focaccia">Pizze&Focaccia</a></li>
+                    <li><a href="#principale">Principale</a></li>
+                    <li><a href="#contorni">Contorni</a></li>
+                    <li><a href="#caffe-te">Caffè&Tè</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.jpg" alt="Image of italian food">
+        </div>
+        <section id="antipasti" class="menu-items">
+            <h1 class="menu-heading">ANTIPASTI</h1>
+            <ul class="name-dishes">
+                <li><strong>Stuzzichini:</strong><br>
+                    risotto croquette, Salami rolled with fresh
+                   Mozzarella, flash-fried artichoke, mushroom bruschetta,
+                   tomato bruschetta, Prosciutto-wrapped grissini 	
+                </li>
+                
+                <li><strong>Calamari:</strong><br>
+                    flash-fried, sauced with roasted garlic, chilies,
+                   tomato, ‘Arrabbiata’ 									
+                   Risotto Croquettes: San Marzano tomato, Prosciutto
+                   di San Daniele, fresh Mozzarella center, tomato, basil
+                   pesto sauce 			     
+                </li>
+                
+                <li>
+                    <strong>Local Mussels:</strong><br>
+                    sautéed with onion, browned garlic, tomato,
+                    basil, white wine 
+                </li>
+                
+                <li><strong>Pan Seared Scallops:</strong><br>
+                    grapefruit & tarragon brown butter
+                    sauce, toasted almonds 	                    
+                </li>
+                
+                <li><strong>Jumbo Shrimp:</strong><br>
+                    sautéed with roasted garlic, cream,
+                    white wine, Italian parsley 
+                </li>
+                
+                <li><strong>Bruschetta:</strong><br>
+                    brushed with garlic, topped with fresh herbs,
+                    chopped tomato, Montasio, Parmigiano                     
+                </li>
+                
+                <li><strong>Italian Seafood Zuppa</strong>  <br>
+                    balsamic vinaigrette  , Parmigiano dusting            
+                </li>
+                
+                <li><strong>Marinated Grilled Vegetable Salad:</strong><br>                  
+                    organic greens, warm
+                    Goat cheese, basil pesto, balsamic vinaigrette 
+                    
+                </li>
+                
+                <li><strong>Caesar Salad:</strong><br>                  
+                    crisp smoked Bacon, grilled focaccia
+                    croutons, classic Caesar dressing, Parmigiano dusting                     
+                </li>
+                
+                <li><strong>Spinach Salad:</strong><br>                  
+                    fresh strawberries, marinated red onions,
+                    honey pecan dressing, flash fried Goat Cheese 						
+                </li>
+                
+                <li><strong>Red & Green Shredded Cabbage Salad: </strong><br>                  
+                warm Bacon
+                dressing, roasted garlic, tomato, E.V. olive oil, balsamic,
+                Parmigiano 					
+                </li>
+            </ul>
+            <ul class="price-dishes">
+                <li>16</li>
+                <li>11</li>
+                <li>11</li>
+                <li>13</li>
+                <li>11</li>
+                <li>8</li>
+                <li>12</li>
+                <li>11</li>
+                <li>11</li>
+                <li>11</li>
+                <li>11</li>
+            </ul>
+        </section>
+        <section id="pasteasciutte" class="menu-items">
+            <h1 class="menu-heading">PASTEASCIUTTE</h1>
+            <ul class="name-dishes">
+                <li><strong>8-Layer Lasagna:</strong><br>                  
+                    homemade pasta layered with slowsimmered Ragù, 
+                    béchamel, Mozzarella, Parmigiano 					
+                </li>
+                
+                <li><strong>Agnolotti all’Aragosta:</strong><br>                  
+                    NS Lobster, lemon & Mascarpone
+                    filling, roasted garlic, San Marzano tomato, splash of cream,
+                    Parmigiano Fonduta, dusted crispy crumbs                                     
+                </li>
+                
+                <li><strong>Linguine Frutti di Mare:</strong><br>                  
+                     Mussels, Scallops, Clams, Jumbo
+                     Shrimp, tomato, garlic, fresh herbs, chilies, white wine 					22
+                     Gnocchi, roasted cherry tomatoes, zucchini, peas, basil, Grana  
+                     Padano                                    
+                </li>
+                
+                <li><strong>Spaghettini alla Carbonara:</strong><br>                  
+                    smoky Bacon, egg, cracked
+                    black pepper, Parmigiano    
+                </li>
+                
+                <li><strong>Penne Salsiccia:</strong><br>                  
+                    handmade Sausage, charred rapini, chili
+                    flakes, Parmigiano  
+                </li>
+                
+                <li><strong>Spaghettini Bolognese:</strong><br>                  
+                    slow-simmered Ragù, Parmigiano 							
+                    Handmade Ravioli, wild mushroom, roasted free range
+                     
+                </li>
+                
+                <li><strong>Chicken & Cambozola stuffing:</strong><br>                  
+                    Sherry cream sauce 
+                </li>
+                
+                <li><strong>Fettuccine Jumbo Shrimp:</strong><br>                  
+                    garlic, slow-roasted cherry
+                    tomatoes, spinach, fresh basil, white wine & cream 	                    
+                </li>
+                
+                <li><strong>Penne Roasted Chicken</strong><br>  
+                    béchamel, Mozzarella, Parmigiano, Chicken                                      
+                </li>
+                
+                <li><strong>Linguine Aglio e Olio:</strong><br> 
+                    E.V. olive oil, roasted garlic, chilies,
+                    Parmigiano, herb-infused breadcrumbs - Anchovies are
+                    optional                      
+                </li>
+                
+            </ul>
+                
+            <ul class="price-dishes">
+                <li>19</li>
+                <li>19</li>
+                <li>22</li>
+                <li>26</li>
+                <li>18</li>
+                <li>19</li>
+                <li>19</li>
+                <li>20</li>
+                <li>20</li>
+                <li>18</li>
+            </ul>
+        </section>
+        <section id="pizze-focaccia" class="menu-items">
+            <h1 class="menu-heading">PIZZE&FOCACCIA</h1>
+        <ul class="name-dishes">
+            <li><strong>Thin Crust Pizza:</strong><br> 
+                Margherita, tomato, basil pesto
+                Genovese & fresh Mozzarella           
+            </li>
+            
+            <li><strong>Thin Crust Pizza Wild Mushrooms:</strong><br> 
+                tomato, smoked
+                Bacon, arugula, Asiago, balsamic drizzle 
+            </li>
+            
+            <li><strong>Thin Crust Pizza, 4-Carne:</strong><br> 
+                tomato jam, caramelized
+                onions, Fontina cheese, spinach 
+            </li>
+            
+            <li><strong>Thin Crust Pizza Chicken:</strong><br> 
+                tomato jam, caramelized
+                onions, Fontina cheese, spinach 	
+            </li>
+            
+            <li><strong>Thin Crust Pizza, Housemade Sausage:</strong><br> 
+                tomato,
+                peperonata, Montasio cheese, chilli oil  
+            </li>
+            
+            <li><strong>Thin Crust Pizza Vegetariana:</strong><br> 
+                tomato, marinated grilled
+                vegetables, crumbled Goat Cheese, pine nuts, balsamic
+                drizzle                   
+            </li>
+            
+            <li><strong>Homemade Ligurian Focaccia:</strong><br> 
+                free range Chicken, crispy
+                Pancetta, avocado, arugula, chili aioli, mixed greens                   
+            </li>
+            
+            <li><strong>Mercato Burger:</strong><br> 
+                chopped Beef Tenderloin, seared
+                Provolone, sweet onions, Bacon, tomato jam, garlic aioli,
+                romaine, toasted focaccia bun, hand-cut fries                                  
+            </li>
+            
+        </ul>
+        <ul class="price-dishes">
+            <li>16</li>
+            <li>17</li>
+            <li>17</li>
+            <li>17</li>
+            <li>17</li>
+            <li>16</li>
+            <li>15</li>
+            <li>17</li>
+        </ul>
+    </section>
+    <section id="principale" class="menu-items">
+        <h1 class="menu-heading">PRINCIPALE</h1>
+        <ul class="name-dishes">
+            <li><strong>Italian Seafood Stew:</strong><br> 
+                Jumbo Shrimp, Scallops, Mussels,
+                Clams, Haddock, sautéed with tomato, peperonata, white                               
+            </li>
+            
+            <li><strong>Chicken Parmigiana:</strong><br> 
+                topped with Mozzarella, baked with
+                San Marzano tomato sauce, Fettuccine all’Alfredo 	                        
+            </li>
+            
+            <li><strong>Pan Seared Halibut:</strong><br> 
+                orange hazelnut gremolata, citrus
+                beurre blanc, grilled asparagus. honey glazed carrots,
+                browned baby potatoes                        
+            </li>
+            
+            <li><strong>Grilled Beef Tenderloin:</strong><br> 
+                Cognac green peppercorn sauce,
+                White Truffle whipped potatoes, summer vegetables                          
+            </li>
+            
+            <li><strong>Atlantic Salmon:</strong><br> 
+                seared, wildflower honey & balsamic
+                glaze, lemon & fresh herb butter sauce                    
+            </li>
+            
+            <li><strong>Grilled Rack of Lamb:</strong><br> 
+                pistachio crusted, blackcurrant
+                demi-glace sauce, rosemary potatoes, fire roasted peppers 	                                    
+            </li>
+            
+            <li><strong>Pork Tenderloin:</strong><br> 
+                wrapped with Pancetta, roasted, browned
+                garlic, Sherry cream sauce                         
+            </li>
+            
+        </ul>
+        <ul class="price-dishes">
+            <li>28</li>
+            <li>26</li>
+            <li>29</li>
+            <li>31</li>
+            <li>26</li>
+            <li>29</li>
+            <li>26</li>
+        </ul>
+    </section>
+    <section id="contorni" class="menu-items">
+        <h1 class="menu-heading">CONTORNI</h1>
+        <ul class="name-dishes">
+            <li><strong>French Fries:</strong><br> 
+                hand-cut, sea salt, Parmigiano, herbs                  
+            </li>
+            
+            <li><strong>Penne: </strong><br> 
+                tomato, basil pesto Genovese, Parmigiano                  
+            </li>
+            
+            <li><strong>Fettuccine all’Alfredo:  </strong><br> 
+                cream, Parmigiano                  
+            </li>
+            
+            <li><strong>Additional vegetables & potatoes</strong><br>                 
+            </li>
+            
+        </ul>
+        <ul class="price-dishes" >
+            <li>6</li>
+            <li>7</li>
+            <li>7</li>
+            <li>5</li>
+        </ul>
+    </section>
+    <section id="caffe-te" class="menu-items">
+        <h1 class="menu-heading">CAFFÈ&TÈ</h1>
+        <ul class="name-dishes">
+            <li><strong>Illy Espresso / Illy Macchiato </strong><br>                
+            </li>
+            
+            <li><strong>Illy Cappuccino / Illy Caffè Latté  </strong><br>                
+            </li>
+
+            <li><strong>Custom Blend Coffee / Teas  </strong><br>                
+            </li>
+            
+            <li><strong>Homemade Hot Chocolate  </strong><br>                
+            </li>
+            
+            <li><strong>Caffè Corretto a shot of Illy Espresso spiked
+                with your favourite Liqueur
+                </strong><br>                
+            </li>
+
+        </ul>
+        <ul class="price-dishes" id="no-margin">
+            <li>3.50</li>
+            <li>4</li>
+            <li>3.25</li>
+            <li>4.50</li>
+            <li>5</li>
+        </ul>
+    </section>
+
+<table id="menuTable"><tr class="menu-table-header"><th>Menu</th></tr><tr><td>Stuzzichini</td></tr><tr><td>Calamari</td></tr><tr><td>Risotto Croquettes</td></tr><tr><td>Local Mussels</td></tr><tr><td>Pan Seared Scallops</td></tr><tr><td>Jumbo Shrimp</td></tr><tr><td>Bruschetta</td></tr><tr><td>Italian Seafood Zuppa</td></tr>
+<tr><td>Marinated Grilled Vegetable Salad</td></tr><tr><td>Caesar Salad</td></tr><tr><td>Spinach Salad</td></tr><tr><td>Red & Green Shredded Cabbage Salad</td></tr><tr><td>8-Layer Lasagna</td></tr><tr><td>Linguine Frutti di Mare</td></tr><tr><td>Agnolotti all’Aragosta</td></tr><tr><td>Spaghettini alla Carbonara</td></tr><tr><td>Penne Salsiccia</td></tr><tr><td>Spaghettini Bolognese</td></tr>
+<tr><td>Chicken & Cambozola stuffing</td></tr><tr><td>Fettuccine Jumbo Shrimp</td></tr><tr><td>Penne Roasted Chicken</td></tr><tr><td>Linguine Aglio e Olio</td></tr><tr><td>Thin Crust Pizza</td></tr><tr><td>Thin Crust Pizza Wild Mushrooms</td></tr><tr><td>Thin Crust Pizza, 4-Carne</td></tr><tr><td>Thin Crust Pizza Chicken</td></tr><tr><td>Thin Crust Pizza, Housemade Sausage</td></tr><tr><td>Thin Crust Pizza Vegetariana</td></tr>
+<tr><td>Homemade Ligurian Focaccia</td></tr><tr><td>Mercato Burger</td></tr><tr><td>Italian Seafood Stew</td></tr><tr><td>Chicken Parmigiana</td></tr><tr><td>Pan Seared Halibut</td></tr><tr><td>Grilled Beef Tenderloin</td></tr><tr><td>Atlantic Salmon</td></tr><tr><td>Grilled Rack of Lamb</td></tr>
+<tr><td>Pork Tenderloin</td></tr><tr><td>French Fries</td></tr><tr><td>Penne</td></tr><tr><td>Fettuccine all’Alfredo</td></tr></table>
+    </main>
+    
+     <!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+            <div><span id="copyright"> &copy; La Casa, 2021 </span>
+            <a href="contact.html">Contact Us</a></div>
+            <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

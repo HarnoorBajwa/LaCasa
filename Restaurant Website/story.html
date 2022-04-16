@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Story</title>
+    <!-- Link to the Normalize reset stylesheet:
+		Author: Nicolas Gallagher
+		URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css
+		Github URL: https://github.com/necolas/normalize.css/
+		Date accessed: 31 Oct 2021
+	-->
+	<link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Link to the main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="main-body">
+     <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+    <header id="header">
+        <section id="page-header">
+            <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+            <h1 id="main-heading">La Casa</h1>
+            <button class="hamburger-icon" id="icon">
+                <!-- material icons pulled through CSS from:
+                https://fonts.googleapis.com/icon?family=Material+Icons
+                -->
+                <em class="menuIcon material-icons">menu</em>
+            </button></div>
+            <p id="Tagline"> Home to authentic Italian food </p>
+            
+        </section>
+        <nav id="navigation-list" class="show">
+            <ul>
+                <li><a href="menu.html" target="_self">Menu</a></li>
+                <li><a href="team.html" target="_self">The Team</a></li>
+                <li><a href="review.html" target="_self">Our Reviews</a></li>
+                <li><a href="story.html" target="_self">Our Story</a></li>
+                <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                <li><a href="contact.html" target="_self">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- This main body contains a little paragraph about the restraunt and an image of the restaurant -->
+        <main id="pg-main-content">
+		<section class="content">
+            <h1>Our Story</h1>
+            <div class="image-txt-container">
+
+                <!-- Citation for external content(img4):
+                Author: Photo by Siyuan on Unsplash
+                URL: https://unsplash.com/photos/g_V2rt6iG7A
+                Date accessed: 11 - Oct - 2021
+                -->
+				<p>La Casa is a rustic fine dining restaurant in the heart of Halifax. We began our humble beginnings in Halifax with a dream to create a mini-Italy in 2001. Since then, we've experimented with fusions and collaborated with our chefs to design a menu that holds dishes based on recipes over 100 years old to new and fun appetizers and drinks. Our handmade pasta and pizzas are both gluten-free and non-GMO.  Our farm-to-fresh ingredients, finely aged wines, and expert chefs guarantee you an authentic Italian experience. <br>
+				It means 'The House' offering familiar Italian cuisine with a key to your cuore(heart)! Enjoy a dining experience like no other with a view from brunch to dinner.</p>
+                    <img src="img/img4.jpg" alt="The image shows the outside view of La Casa" class="outdoor-view">
+                    &nbsp;
+            </div>
+		</section>
+
+	</main>
+<!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+           <div><span id="copyright"> &copy; La Casa, 2021 </span>
+            <a href="contact.html">Contact Us</a></div>
+            <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+</body>
+</html>

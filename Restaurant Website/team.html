@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Casa</title>
+
+        <!-- Link to the Normalize reset stylesheet:
+            Author: Nicolas Gallagher
+            URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css
+            Github URL: https://github.com/necolas/normalize.css/
+            Date accessed: 31 Oct 2021
+        -->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <!-- Link to the main stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body id="main-body">
+         <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+        <header id="header">
+            <section id="page-header">
+                <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+                <h1 id="main-heading">La Casa</h1>
+                <button class="hamburger-icon" id="icon">
+                    <!-- material icons pulled through CSS from:
+                    https://fonts.googleapis.com/icon?family=Material+Icons
+                    -->
+                    <em class="menuIcon material-icons">menu</em>
+                </button></div>
+                <p id="Tagline"> Home to authentic Italian food </p>
+                
+            </section>
+            <nav id="navigation-list" class="show">
+                <ul>
+                    <li><a href="menu.html" target="_self">Menu</a></li>
+                    <li><a href="team.html" target="_self">The Team</a></li>
+                    <li><a href="review.html" target="_self">Our Reviews</a></li>
+                    <li><a href="story.html" target="_self">Our Story</a></li>
+                    <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- This main body contains into of the chef and about our team -->
+        <main id="homepg-main-content">
+            <article id="IntroToTheChef">
+                <h2>Introduction to the Chef</h2>
+                <p>Chef Gina Canva came from humble beginnings, being raised by a mother to 4, she spent most of her time in her grandparent’s kitchen, where she was constantly cooking up new savory dishes so she could help feed her family of 5. She started to help her grandparents with chores around the kitchen, and soon developed a love for the multitude of different techniques used to roll out soft pastry dough and many others. She was inspired by how food can tell a story and convey cultural ideas, as well as how it can bring people together. Her current position as head Chef at the La Casa restaurant reflects her dedication to nourishing food as well as his heritage.
+
+                    Gina graduated from the culinary institute of Florence in Italy. She then started working as a sous chef at Enoteca Pinchiorri, where she helped to assemble dishes and work as part of a team to keep up with the orders coming into the kitchen. She especially excelled in the art of cooking Risotto Alla Milanese to the exact right doneness, perfecting the art of adjusting the temperature of the plate to ensure the dish either continued to cook or cooled down accordingly depending on the availability of the servers. Working as part of a large culinary team helped to hone her communication as well as leadership skills.
+                    
+                    The skills she gained at Enoteca Pinchiorri allowed her to make the jump to head chef at La Casa, which she has worked at for the past 10 years. She creates her own recipes and has a strong influence on the menu which brings together Italian food from all cultures. In her spare time, Canva enjoys an active life and engages in fitness camps, which drives her demand for nutritious food. Every meal that she creates reflects these values, providing not only excellent taste, but also nourishment for the mind and body.
+                </p>
+
+            </article> 
+
+            <article id="IntroToTheTeam">
+                <h2>About our Team</h2>
+                <p>Our team is full of friendly faces who are all ready to serve you and make sure your experience with us today is the best that it can possibly be. Each and every member of our staff was hand picked by our head chef Gina Canva for their skills and talents in their respective positions. Whether they be a chef, waiter/ waitress, or server, their all here to ensure your satisfied.</p>
+            </article>
+
+        </main>
+<!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+            <div><span id="copyright"> &copy; La Casa, 2021 </span>
+             <a href="contact.html">Contact Us</a></div>
+             <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+         </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

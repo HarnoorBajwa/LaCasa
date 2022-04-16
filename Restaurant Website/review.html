@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+    <!-- Link to the Normalize reset stylesheet:
+		Author: Nicolas Gallagher
+		URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css
+		Github URL: https://github.com/necolas/normalize.css/
+		Date accessed: 31 Oct 2021
+	-->
+	<link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Link to the main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="main-body">
+    <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+    <header id="header">
+        <section id="page-header">
+            <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+            <h1 id="main-heading">La Casa</h1>
+            <button class="hamburger-icon" id="icon">
+                <!-- material icons pulled through CSS from:
+                https://fonts.googleapis.com/icon?family=Material+Icons
+                -->
+                <em class="menuIcon material-icons">menu</em>
+            </button></div>
+            <p id="Tagline"> Home to authentic Italian food </p>
+            
+        </section>
+        <nav id="navigation-list" class="show">
+            <ul>
+                <li><a href="menu.html" target="_self">Menu</a></li>
+                <li><a href="team.html" target="_self">The Team</a></li>
+                <li><a href="review.html" target="_self">Our Reviews</a></li>
+                <li><a href="story.html" target="_self">Our Story</a></li>
+                <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                <li><a href="contact.html" target="_self">Contact Us</a></li>
+            </ul>
+        </nav>  
+    </header>
+<!-- Sections containing reviews and stars -->
+        <section id="our-reviews">
+            <h1>Our Reviews</h1>
+        </section>
+
+      <section class="review-section-container">
+         <div id="review-content" >
+            <p>A magical experience at La Casa, a must-visit for anyone in Halifax, mouthwatering Antipasti and flavorful, gluten-free Focaccia, right in South Street, with a stunning view of downtown. Beautiful outdoor seating, great for a date or a group dinner. Finally, a glass of their best wine and a stroll through the gardens to end the night.</p>
+            &nbsp;
+         </div>
+         <div class="columns image">
+            <div class="content-container">
+               <h3>The Coast Magazine: </h3>
+            <p class = "rating1"><strong>Rating:</strong>
+                <span id="1rating1">&#9733;</span>
+                <span id="1rating2">&#9733;</span>
+                <span id="1rating3">&#9733;</span>
+                <span id="1rating4">&#9733;</span>
+                <span id="1rating5">&#9733;</span>
+            </p>
+            </div>
+         </div>
+      </section>
+      <div class="section-container">
+         <div class="columns image">
+            <section class="content-container">
+               <h3>Megan Priestly:</h3>
+               <p><strong>Rating:</strong>
+                <span id="2rating1">&#9733;</span>
+                <span id="2rating2">&#9733;</span>
+                <span id="2rating3">&#9733;</span>
+                <span id="2rating4">&#9733;</span>
+                <span id="2rating5">&#9733;</span>
+            </p>
+            <p>Date of visit: January 2021</p>
+            </section>
+         </div>
+         <div class="columns content">
+            <p>I celebrated my 30th birthday here a few days ago, my favorite place in all of Halifax ever since I've moved here. The waiters were so friendly, the whole atmosphere was vibrant, and the head chef Gina brought out a specially made heavenly birthday Fettuccine Jumbo Shrimp pasta, complete with Fettucine 'icing'. A birthday like no other, La Casa holds a special place in my heart, and I highly recommend this place to anyone.</p>
+            &nbsp;
+         </div>
+      </div>
+ <!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+           <div><span id="copyright"> &copy; La Casa, 2021 </span>
+            <a href="contact.html">Contact Us</a></div>
+            <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+   </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>La Casa</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+    <body id="main-body">
+        <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+        <header id="header">
+            <section id="page-header">
+                <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+                <h1 id="main-heading">La Casa</h1>
+                <button class="hamburger-icon" id="icon">
+                    <!-- material icons pulled through CSS from:
+                    https://fonts.googleapis.com/icon?family=Material+Icons
+                    -->
+                    <em class="menuIcon material-icons">menu</em>
+                </button></div>
+                <p id="Tagline"> Home to authentic Italian food </p>
+                
+            </section>
+            <nav id="navigation-list" class="show">
+                <ul>
+                    <li><a href="menu.html" target="_self">Menu</a></li>
+                    <li><a href="team.html" target="_self">The Team</a></li>
+                    <li><a href="review.html" target="_self">Our Reviews</a></li>
+                    <li><a href="story.html" target="_self">Our Story</a></li>
+                    <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <!-- main body contains sections with information about the restraunt, buttons
+        to menu and about us pages and a few images complimentary to the data about the restraunt -->
+        <main>
+            <section id="introduction" class="right-align">
+                <div><h1>Welcome to La Casa!</h1>
+                <p>Since 2001, La Casa - The Home to authentic Italian food La Casa had delivered award-winning italian cuisine and has been serving
+                     exquisite Italian cuisine. Using recipes passed down 
+                     through the generations. Uses locally source fresh ingredients.
+                     Each and every dish served in La Casa are prepared and cook with love. La Casa is the perfetto place to relax with friends and family while enjoying our food.
+                </p></div>
+                <img id="restaraunt-img" src="img/introduction-img.jpg" alt="image of restaraunt">
+            </section>
+            <section id="menu" class="left-align">
+                <div id="menu-sub">
+                    <h1>We love making food!</h1>
+                    <p>
+                        Check our diverse menu and discover the authentic Italian cuisine we have to offer. Food served straight out 
+                        of the hands of our exquisite <em>Capocuoco</em>(Chef).
+                    </p>
+                    <button onclick="location.href='menu.html'">Menu</button>
+                </div>
+               <video loop autoplay>
+                   <source src="img/menu-vid.mp4" type="video/mp4" >
+               </video>
+            </section>
+            <section class="right-align" id="learn-more">
+                <div id="learn-more-sub">
+                    <h1>Wanna learn more about us?
+                    </h1>
+                    <p>
+                    We are open for dining, deliver and pick-up at our all locations. Learn more about our beautiful restaraunt "La Casa".
+                    </p>
+                    <button onclick="location.href='team.html'" >Learn more</button>
+                </div>
+                <img src="img/learn-more.jpg" alt="Image of Italian noodles">
+            </section>
+        </main>
+         <!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+           <div><span id="copyright"> &copy; La Casa, 2021 </span>
+            <a href="contact.html">Contact Us</a></div>
+            <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

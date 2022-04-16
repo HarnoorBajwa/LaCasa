@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>La Casa</title>
+
+	<!-- Link to the Normalize reset stylesheet:
+		Author: Nicolas Gallagher
+		URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css
+		Github URL: https://github.com/necolas/normalize.css/
+		Date accessed: 31 Oct 2021
+	-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body id="main-body">
+	<!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+	<header id="header">
+		<section id="page-header">
+			<div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+			<h1 id="main-heading">La Casa</h1>
+			<button class="hamburger-icon" id="icon">
+				<!-- material icons pulled through CSS from:
+				https://fonts.googleapis.com/icon?family=Material+Icons
+				-->
+				<em class="menuIcon material-icons">menu</em>
+			</button></div>
+			<p id="Tagline"> Home to authentic Italian food </p>
+			
+		</section>
+		<nav id="navigation-list" class="show">
+			<ul>
+				<li><a href="menu.html" target="_self">Menu</a></li>
+				<li><a href="team.html" target="_self">The Team</a></li>
+				<li><a href="review.html" target="_self">Our Reviews</a></li>
+				<li><a href="story.html" target="_self">Our Story</a></li>
+				<li><a href="HandR.html" target="_self">Hours & Location</a></li>
+				<li><a href="contact.html" target="_self">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- main content of the body, has a form to fillout the info and the submit button -->
+	<main id="contact-us-main">
+		<div id="box">
+			<div id="contact-us-info">
+				<p>Phone no. - 902 123 4567</p>
+				<p>Email - lacasa@gmail.com</p>
+			</div>
+			<form id=“contact-form”>
+				<div id="form-paragraph">
+					<p>Have a question or comment?</p> 
+					<p id="greet">Feel free to send us a message! We will get back to you as soon as possible!</p>
+				</div>
+				<div id="form-name" class="form-input">
+					<label for="input-name">Name: </label>
+					<input type="text" id="input-name" name="name-input" placeholder="Your name">
+				</div>
+				<div id="form-email" class="form-input">
+					<label for="email">Email: </label>
+					<input type="text" id="email" name="email-input" placeholder="Your email">
+				</div>
+				<div id="form-phone-number" class="form-input">
+					<label for="phone-number" id="phone-number-text">Phone number: </label>
+					<input type="text" id="phone-number" name="phone-number-input" placeholder="Your phone number">
+				</div>
+				<div id="form-message" class="form-input">
+					<label for="message">Message: </label>
+					<textarea id="message" name="messsage-input" rows="10" cols="30" placeholder="Your message"></textarea>
+				</div>
+				<div id="button">
+					<input id="submit-button" type="submit" name="cf-submit" value="Submit">
+				</div>	
+			</form>
+		</div>	
+	</main>
+	<!-- footer of the page with a copyright logo,address and a link to contact us page -->
+	<footer id="pg-footer">
+		<div><span id="copyright"> &copy; La Casa, 2021 </span>
+		 <a href="contact.html">Contact Us</a></div>
+		 <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+	 </footer>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

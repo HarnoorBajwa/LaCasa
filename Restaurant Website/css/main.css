@@ -1,0 +1,561 @@
+/* Universal styling of alll the web-pages */
+#main-body {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:80vw;
+    margin:0 auto;
+    background-color: #F4FAFF;
+    
+}
+
+/* centering the img for our story page * helllo/
+.image-txt-container img{
+    margin: 0 auto;
+}
+
+/* Styling the header for all the webpages */
+#page-header div{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #d6edff;
+    padding: 0.5em;
+}
+#logo{
+    width: 8vw;
+    height: auto;
+}
+#Tagline{
+    padding: 0.5em;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+/*navigation*/
+.hamburger-icon{
+   display: none;
+}
+#navigation-list{
+    background-color: black;
+    padding: 0.25em;
+    margin-bottom: 1em;
+}
+#navigation-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navigation-list ul a{
+    text-decoration: none;
+    color: #d6edff;
+    font-weight: bold;
+}
+#navigation-list ul a:hover{
+    color: #7CC6FE;
+    
+}
+
+/* resizing the image and video on the main page */
+.right-align img, .left-align video{
+    width: 400px;
+    height: auto;
+    display: block;
+}
+/* aligning all the paras to the right using flex */
+.right-align{
+    display: flex;
+    background-color: black;
+    color: #F4FAFF;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+/* aligning all the paras to the left using flex */
+.left-align{
+    display: flex;
+    border:solid thin black;
+    background-color: #7CC6FE;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+/* making little changes to the aligned items */
+.left-align div p{
+    margin-left: 1.5em;
+    margin-bottom: 5em;
+}
+.left-align div button{
+    display: block;
+    margin: 0 auto;
+}
+
+.right-align div{
+    display: block;
+    margin: 0 auto;
+}
+.right-align div h1{
+    text-align: center;
+}
+.left-align div h1{
+    text-align: center;
+}
+.right-align div p{
+    margin-bottom: 5em;
+}
+
+.right-align div button{
+    display: block;
+    margin: 0 auto;
+    
+}
+.right-align div button a,.left-align div button a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/* Styling the HandR page */
+#main-location-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #5dfdcb;
+    background-color: black;
+    margin-bottom: -0.25em;
+    margin-top: -0.39em;
+    padding-top: 0.45em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+#location-heading{
+   display: none;
+   color: tomato;
+}
+    
+#main-division{
+    display: flex;    
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding-top: 0.5em;
+    color: #d6edff;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 25px;
+}
+    
+#main-division img{
+    width: 30%;
+}
+    
+#add-location{
+    border:#d6edff ridge thick;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+    
+#locAndHrs{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}  
+#hr-operation{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: center;
+    font-size: 30px;
+    color: tomato;
+}  
+#hours-location{    
+    font-family: 'Neue Helvetica','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    align-self: center;
+    color: #d6edff;
+    margin-bottom: 3em;
+}
+
+/* Styling the page's footer for all webpages */
+#pg-footer{
+    display: flex;
+    background-color: black;
+    align-items: baseline;
+    justify-content: space-between;
+    color: white;
+    padding:0.5em ;
+    color:#d6edff;
+    margin-top: 2em;
+}
+
+#pg-footer p{
+    margin-right: 2em;
+}
+
+#pg-footer a{
+    margin-left: 2em;
+    text-decoration: none;
+    color: #d6edff;
+}
+#pg-footer a:hover{
+    color: #7CC6FE;
+}
+
+/* Styling menu webpage according to other pages */
+#menu-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: xx-large;
+    
+}
+#menu-nav img{
+    width: 300px;
+    height: auto;
+}
+#sub-nav-menu{
+    flex:2;
+}
+#sub-nav-menu ul{
+  
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 0.75em;
+    border-top:#7CC6FE solid thin;
+    border-bottom:#7CC6FE solid thin;
+   
+}
+ 
+#sub-nav-menu ul li a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color:#d6edff;
+    text-align: center;
+}
+#sub-nav-menu ul li a:hover{
+    text-decoration: none;
+    color:#7CC6FE;
+}
+.menu-items{
+    border: black double ; 
+    padding:1em;
+}
+.menu-items {
+    line-height: 2em;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    "heading heading"
+    "dish price";
+    
+    
+}
+.menu-heading{
+    grid-area: heading;
+}
+.name-dishes{
+    grid-area: dish;
+}
+.price-dishes{
+    grid-area: price;
+    list-style: none;
+    justify-self: end;  
+}
+.price-dishes li{
+    margin:2em;
+}
+#no-margin li{
+    margin:0em;
+}
+.menu-items p{
+    text-align: right;
+}
+#menuTable {
+    display: none;
+}
+
+/* Styling the contact us page */
+#contact-us-main{
+    height: 90vh;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form{
+    background-color: #000;
+    color: #d6edff;
+    height: 70vh;
+    width: 50vw;
+}
+
+#form-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input{
+    display: flex;
+    align-items: flex-start;
+    height: 7vh;
+    padding-left: 63px;
+}
+
+#form-message{
+    padding-bottom: 160px;
+}
+
+#button{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    width: 10vw;
+}
+
+.review-section-container
+{
+
+display: flex;
+flex-wrap: wrap;
+}
+.review-section-container .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+
+.review-section-container .review.content .content-container
+{
+padding:40px 50px;
+}
+.review-section-container .review.content .content-container h3
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+.review-section-container .review.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+/* Styling the reviews and story page */
+.image-txt-container {
+  align-items:center;
+    display: flex;
+}
+
+.image-txt-container p {
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.outdoor-view{
+    width: 600px;
+    height: 370px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.image-txt-container{
+    flex-flow:row wrap;
+    display: flex;
+}
+
+.outdoor-view{
+    max-width: 100%;
+}
+
+/*Mobile view*/
+/*navigation*/
+@media screen and (max-width: 840px){
+    #main-body{
+        width: 100vw;
+    }
+    #logo{
+       width: 100px;
+   }
+   #pg-header{
+       display: flex;
+       flex-flow: wrap;
+   }
+
+   #icon{
+       margin-left: 60%;
+       
+   }
+   .right-align{
+       flex-direction: column-reverse;
+       padding-bottom: 2em;
+   }
+   .right-align img,.left-align video{
+       width: 100vw;
+   }
+   .left-align{
+       flex-direction: column-reverse;
+       background-color: black;
+       color:#d6edff; ;
+   }
+   #main-location-heading{
+    margin-top: 0.15em;
+    
+}
+#main-division{
+    flex-direction: column;
+    
+}
+#add-location div{
+ padding-top:7em;
+ padding-left: 14%;
+ padding-right: 14%;
+ }
+#main-division img{
+ margin-top: 10%;
+ width:400px;
+ }
+ #location-heading{
+     display: none;
+ }
+
+    #page-header div{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #pg-footer{
+        margin-top:1em;
+    }
+    #pg-footer{
+        flex-direction: column;
+    }
+    #pg-footer div{
+        margin: 0 auto;
+        padding:0.25em;
+    }
+    #pg-footer p{
+        margin: 0 auto;
+    }
+    #pg-footer a{
+        margin: 0 auto;
+    }
+
+    #navigation-list{
+        display: none;
+    }
+
+    .hamburger-icon{
+        display: initial;
+        margin-right: 2em;
+    }
+
+    .hide{
+        display: block !important;
+    }
+
+    #navigation-list a{
+        font-size: 0.9em;
+    }
+
+    #navigation-list a:hover{
+        text-decoration: underline;
+    }
+
+    #navigation-list li{
+        padding-right: 5px;
+    }
+
+    #menu-nav img{
+        display: none;
+    }
+    #sub-nav-menu ul li a{
+        font-size: large;
+    }
+    .form-input{
+        flex-direction: column;
+        padding-left: initial;
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #form-message{
+        padding-bottom: 5px;
+        height: 20vh;
+    }
+
+    #greet{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    #phone-number-text{
+        width: 20vw;
+    }
+
+
+    .review-section-container
+    {
+    flex-flow:row wrap;
+    }
+
+    .review-section-container .review.columns.content
+    {
+    display:block;
+    order:2;
+    width:100%;
+    }
+    .review-section-container .review.columns.content .content-container
+    {
+    padding:20px 35px;
+    }
+    .review-section-container .review.columns.content .content-container h3
+    {
+    margin-bottom:5px;
+    }
+    .image-txt-container img{
+        width: 70%;
+        height: auto;
+    }
+    .image-txt-container{
+        background-color: #000;
+        color: #d6edff;
+        width: 100Vw;
+        margin: 0 auto;
+    }
+} 
+    

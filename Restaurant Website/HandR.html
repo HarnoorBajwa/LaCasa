@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>La Casa</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+
+    <body id="main-body">
+        <!-- This section is the header which contains the navigation links to other
+	pages and has a button to be used in mobile view. It also has the name main-heading
+	and the logo of the restaraunt -->
+        <header id="header">
+            <section id="page-header">
+                <div><a href="index.html"><img id="logo" src="img/logo.png" alt="This is the logo of the restaraunt"></a>
+                <h1 id="main-heading">La Casa</h1>
+                <button class="hamburger-icon" id="icon">
+                    <!-- material icons pulled through CSS from:
+                    https://fonts.googleapis.com/icon?family=Material+Icons
+                    -->
+                    <em class="menuIcon material-icons">menu</em>
+                </button></div>
+                <p id="Tagline"> Home to authentic Italian food </p>
+                
+            </section>
+            <nav id="navigation-list" class="show">
+                <ul>
+                    <li><a href="menu.html" target="_self">Menu</a></li>
+                    <li><a href="team.html" target="_self">The Team</a></li>
+                    <li><a href="review.html" target="_self">Our Reviews</a></li>
+                    <li><a href="story.html" target="_self">Our Story</a></li>
+                    <li><a href="HandR.html" target="_self">Hours & Location</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h2 id="main-location-heading"> Where to Find Us ?</h2>
+        <!-- Section containing the address,email and a map snippet of the restaraunt -->
+        <section id ="res-address" class="right-align">
+            <div id="main-division">
+                <div id="add-location">
+                    6385 South St<br>                                                         
+                    Halifax, NS<br>
+                    B3H 4J4<br>
+                    <p> Reach us at :<br>
+                        Phone: (902)-123-4567<br>                                                                                         
+                        lacasa@gmail.com </p>       
+                </div>
+
+                <img id="map" src="img/large-detailed-map-of-halifax.jpeg" 
+                     alt="The image displays the map for the location of the restaurant">
+            </div>  
+                <h2 id ="location-heading"> Where to Find Us ?</h2>
+        </section>
+        <!-- Section conatining the weekly open hours -->
+        <section id="locAndHrs">
+            <h2 id="hr-operation">Hours of Operation</h2>                
+            <div id="hours-location">
+                <p>MON	8:00 AM - 8:00 PM</p>
+                <p>TUE	8:00 AM - 8:00 PM</p>
+                <p>WED	8:00 AM - 8:00 PM</p>
+                <p>THU	8:00 AM - 8:00 PM</p>
+                <p>FRI	8:00 AM - 8:00 PM</p>
+                <p>SAT	8:00 AM - 8:00 PM</p>
+                <p>SUN	10:00 AM - 5:00 PM</p>    
+            </div>
+        </section>
+
+        <!-- footer of the page with a copyright logo,address and a link to contact us page -->
+        <footer id="pg-footer">
+            <div><span id="copyright"> &copy; La Casa, 2021 </span>
+            <a href="contact.html">Contact Us</a></div>
+            <p>Address- 6385 South St, Halifax, NS B3H 4J4</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+    
+</html>
