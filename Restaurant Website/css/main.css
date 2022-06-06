@@ -262,8 +262,6 @@
     grid-template-areas: 
     "heading heading"
     "dish price";
-    
-    
 }
 .menu-heading{
     grid-area: heading;
